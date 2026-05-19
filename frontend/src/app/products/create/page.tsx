@@ -248,7 +248,7 @@ export default function CreateListingPage() {
     const controller = new AbortController()
     const timer = window.setTimeout(async () => {
       try {
-        const response = await fetch("http://localhost:8000/api/v1/ai/price", {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/v1/ai/price`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           signal: controller.signal,
@@ -410,7 +410,7 @@ export default function CreateListingPage() {
       body.append("payload", JSON.stringify(payload))
       if (photos[0]?.file) body.append("image", photos[0].file, "ilan-kapak.jpg")
 
-      const response = await fetch("http://localhost:8000/api/v1/ai/listing-trust", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/v1/ai/listing-trust`, {
         method: "POST",
         body,
       })

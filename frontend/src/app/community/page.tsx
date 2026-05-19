@@ -49,7 +49,7 @@ type Post = {
 }
 
 const postsStorageKey = "ciftciden_posts"
-const backendUrl = "http://localhost:8000"
+const backendUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
 
 const seedPosts: Post[] = [
   {

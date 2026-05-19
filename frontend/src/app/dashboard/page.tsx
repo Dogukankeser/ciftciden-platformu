@@ -825,7 +825,7 @@ function DecisionPanel({
     const fallbackAnswer = localMuhtarFinanceFallback(cleanQuestion, fallbackContext)
 
     try {
-      const response = await fetch("http://localhost:8000/api/v1/muhtar/ask", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/v1/muhtar/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
