@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Türkiye tarımında yaygın bitki hastalıkları veri tabanı",
+    "source": "Mock — BTK Akademi 2026 Hackathon"
+  },
+  "hastaliklar": [
+    {
+      "id": "DSE-001",
+      "ad": "Kayısı Çil Hastalığı",
+      "bilimsel_ad": "Cladosporium carpophilum",
+      "bitki": "kayısı",
+      "etkilenen_kisim": ["yaprak", "meyve", "sürgün"],
+      "belirtiler": [
+        "Yapraklarda 2-5 mm çapında yuvarlak, kahverengi-mor lekeler",
+        "Lekelerin etrafında sarımsı hale oluşumu",
+        "Meyve yüzeyinde küçük, yeşilimsi-siyah çukurlaşmalar",
+        "Sürgünlerde kabuk altı kahverengi lezyon"
+      ],
+      "sebepler": [
+        "Yüksek nem (%80 üzeri) ve ılık sıcaklıklar (20-26°C)",
+        "Yağışlı bahar dönemi",
+        "Enfekteli dal ve yaprak kalıntıları"
+      ],
+      "tedavi": [
+        "Bakırlı preparatlar (Bordo bulamacı) ile erken ilkbahar ilaçlaması",
+        "Çiçeklenme öncesi ve sonrası fungisit uygulaması",
+        "Enfekteli dalların budanması ve imhası"
+      ],
+      "onleme": [
+        "Düzenli budama ile havalandırma sağlama",
+        "Yaprak döküm sonrası bahçe temizliği",
+        "Dayanıklı çeşit tercihi",
+        "Dengeli gübreleme programı"
+      ],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["ilkbahar", "yaz"],
+      "yaygin_iller": ["Malatya", "Elazığ", "Iğdır", "Mersin"]
+    },
+    {
+      "id": "DSE-002",
+      "ad": "Domates Mildiyösü",
+      "bilimsel_ad": "Phytophthora infestans",
+      "bitki": "domates",
+      "etkilenen_kisim": ["yaprak", "meyve", "gövde"],
+      "belirtiler": [
+        "Yapraklarda su emilmiş gibi koyu yeşil lekeler",
+        "Lekelerin altında beyaz küf tabakası",
+        "Meyvelerde kahverengi, sert çürüme",
+        "Gövdede koyu kahverengi şeritler"
+      ],
+      "sebepler": [
+        "Serin ve nemli hava koşulları (15-22°C)",
+        "Uzun süreli yaprak ıslaklığı",
+        "Sık dikim aralığı"
+      ],
+      "tedavi": [
+        "Sistemik fungisit uygulaması",
+        "Bakırlı preparatlar",
+        "Enfekteli bitkilerin derhal sökülmesi"
+      ],
+      "onleme": [
+        "Dayanıklı çeşit kullanımı",
+        "Yeterli bitki aralığı bırakma",
+        "Damla sulama tercihi",
+        "Alt yaprakların budanması"
+      ],
+      "risk_seviyesi": "yüksek",
+      "yaygin_mevsim": ["ilkbahar", "sonbahar"],
+      "yaygin_iller": ["Antalya", "Mersin", "Manisa", "Bursa"]
+    },
+    {
+      "id": "DSE-003",
+      "ad": "Elma Karaleke Hastalığı",
+      "bilimsel_ad": "Venturia inaequalis",
+      "bitki": "elma",
+      "etkilenen_kisim": ["yaprak", "meyve"],
+      "belirtiler": [
+        "Yapraklarda zeytin yeşili-siyah kadifemsi lekeler",
+        "Meyve üzerinde koyu, pütürlü lekeler",
+        "Şiddetli enfeksiyonda yaprak dökümü",
+        "Meyvelerde çatlama ve şekil bozukluğu"
+      ],
+      "sebepler": [
+        "Ilık ve nemli hava (18-24°C)",
+        "Yağmurlu ilkbahar",
+        "Enfekteli yaprak kalıntıları"
+      ],
+      "tedavi": [
+        "Koruyucu ve tedavi edici fungisitler",
+        "Kükürt bazlı preparatlar",
+        "Enfekteli yaprakların toplanması"
+      ],
+      "onleme": [
+        "Dayanıklı çeşit seçimi",
+        "Bahçe hijyeni",
+        "Dengeli azot gübrelemesi",
+        "İyi havalandırma için budama"
+      ],
+      "risk_seviyesi": "yüksek",
+      "yaygin_mevsim": ["ilkbahar", "yaz"],
+      "yaygin_iller": ["Isparta", "Karaman", "Niğde", "Amasya"]
+    },
+    {
+      "id": "DSE-004",
+      "ad": "Kayısı Monilya (Kahverengi Çürüklük)",
+      "bilimsel_ad": "Monilinia laxa",
+      "bitki": "kayısı",
+      "etkilenen_kisim": ["çiçek", "meyve", "sürgün"],
+      "belirtiler": [
+        "Çiçeklerde kahverengileşme ve kuruma",
+        "Meyvelerde yumuşak kahverengi çürüme",
+        "Çürüyen meyve üzerinde gri küf halkaları",
+        "Sürgün uçlarında kuruma"
+      ],
+      "sebepler": [
+        "Çiçeklenme döneminde yağış ve nem",
+        "Sıcaklık 15-25°C arası",
+        "Mumyalaşmış meyve kalıntıları"
+      ],
+      "tedavi": [
+        "Çiçeklenme döneminde fungisit uygulaması",
+        "Enfekteli meyve ve dalların uzaklaştırılması"
+      ],
+      "onleme": [
+        "Mumyalaşmış meyvelerin toplanması",
+        "Budama artıklarının imhası",
+        "Hasat sonrası soğuk zincir"
+      ],
+      "risk_seviyesi": "yüksek",
+      "yaygin_mevsim": ["ilkbahar"],
+      "yaygin_iller": ["Malatya", "Elazığ", "Erzincan"]
+    },
+    {
+      "id": "DSE-005",
+      "ad": "Domates Yaprak Kıvırcıklık Virüsü",
+      "bilimsel_ad": "TYLCV",
+      "bitki": "domates",
+      "etkilenen_kisim": ["yaprak", "tüm bitki"],
+      "belirtiler": [
+        "Yaprakların yukarı doğru kıvrılması",
+        "Yapraklarda sararma ve küçülme",
+        "Bitkide bodurlaşma",
+        "Meyve tutumunda azalma"
+      ],
+      "sebepler": [
+        "Beyazsinek (Bemisia tabaci) ile bulaşma",
+        "Sıcak ve kurak koşullar"
+      ],
+      "tedavi": [
+        "Viral hastalığın doğrudan tedavisi yoktur",
+        "Enfekteli bitkiler sökülmeli",
+        "Vektör kontrolü (beyazsinek mücadelesi)"
+      ],
+      "onleme": [
+        "Dayanıklı çeşit kullanımı",
+        "Sarı yapışkan tuzaklar",
+        "Sera girişlerinde böcek ağı",
+        "Yabancı ot kontrolü"
+      ],
+      "risk_seviyesi": "çok yüksek",
+      "yaygin_mevsim": ["yaz"],
+      "yaygin_iller": ["Antalya", "Mersin", "Adana", "Muğla"]
+    },
+    {
+      "id": "DSE-006",
+      "ad": "Biber Antraknozu",
+      "bilimsel_ad": "Colletotrichum spp.",
+      "bitki": "biber",
+      "etkilenen_kisim": ["meyve", "yaprak"],
+      "belirtiler": [
+        "Meyvelerde çökük, dairesel kahverengi lekeler",
+        "Lekelerin merkezinde turuncu spor kümeleri",
+        "Olgun meyvelerde hızlı yumuşama"
+      ],
+      "sebepler": ["Sıcak ve nemli ortam", "Enfekteli tohum kullanımı"],
+      "tedavi": ["Fungisit uygulaması", "Enfekteli meyvelerin toplanması"],
+      "onleme": ["Sertifikalı tohum kullanımı", "Münavebe", "Damla sulama"],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["yaz", "sonbahar"],
+      "yaygin_iller": ["Şanlıurfa", "Gaziantep", "Kahramanmaraş"]
+    },
+    {
+      "id": "DSE-007",
+      "ad": "Buğday Pası (Sarı Pas)",
+      "bilimsel_ad": "Puccinia striiformis",
+      "bitki": "buğday",
+      "etkilenen_kisim": ["yaprak", "başak"],
+      "belirtiler": [
+        "Yapraklarda sarı-turuncu çizgisel püstüller",
+        "Damar boyunca sıralı spor yatakları",
+        "Şiddetli saldırıda yaprak kuruma"
+      ],
+      "sebepler": ["Serin ve nemli ilkbahar", "Hassas çeşit ekimi"],
+      "tedavi": ["Triazol grubu fungisitler", "Erken müdahale"],
+      "onleme": ["Dayanıklı çeşit ekimi", "Dengeli gübreleme", "Ekim zamanına dikkat"],
+      "risk_seviyesi": "yüksek",
+      "yaygin_mevsim": ["ilkbahar"],
+      "yaygin_iller": ["Konya", "Ankara", "Eskişehir", "Diyarbakır"]
+    },
+    {
+      "id": "DSE-008",
+      "ad": "Bağ Külleme Hastalığı",
+      "bilimsel_ad": "Uncinula necator",
+      "bitki": "üzüm",
+      "etkilenen_kisim": ["yaprak", "meyve", "sürgün"],
+      "belirtiler": [
+        "Yaprak üstünde beyaz unumsu tabaka",
+        "Tanelerde çatlama ve kahverengileşme",
+        "Sürgünlerde beyaz örtü"
+      ],
+      "sebepler": ["Kurak ve sıcak hava", "Yetersiz havalandırma"],
+      "tedavi": ["Kükürt bazlı ilaçlar", "Sistemik fungisitler"],
+      "onleme": ["Budama ile havalandırma", "Dayanıklı anaç kullanımı"],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["yaz"],
+      "yaygin_iller": ["Manisa", "Denizli", "Elazığ", "Gaziantep"]
+    },
+    {
+      "id": "DSE-009",
+      "ad": "Patates Mildiyösü",
+      "bilimsel_ad": "Phytophthora infestans",
+      "bitki": "patates",
+      "etkilenen_kisim": ["yaprak", "yumru"],
+      "belirtiler": [
+        "Yapraklarda koyu, su emilmiş lekeler",
+        "Yaprak altında beyaz sporlanma",
+        "Yumrularda kahverengi sert çürüme"
+      ],
+      "sebepler": ["Serin nemli hava", "Enfekteli tohumluk"],
+      "tedavi": ["Bakırlı ve sistemik fungisitler"],
+      "onleme": ["Sertifikalı tohumluk", "Münavebe", "İyi drenaj"],
+      "risk_seviyesi": "yüksek",
+      "yaygin_mevsim": ["ilkbahar", "sonbahar"],
+      "yaygin_iller": ["Niğde", "Nevşehir", "Bolu", "Erzurum"]
+    },
+    {
+      "id": "DSE-010",
+      "ad": "Zeytin Dal Kanseri",
+      "bilimsel_ad": "Pseudomonas savastanoi",
+      "bitki": "zeytin",
+      "etkilenen_kisim": ["dal", "gövde"],
+      "belirtiler": [
+        "Dallarda düzensiz şişkinlikler (ur)",
+        "Urların çatlaması ve kahverengileşmesi",
+        "Şiddetli saldırıda dal kuruma"
+      ],
+      "sebepler": ["Budama yaraları", "Dolu zararı", "Bakteriyel bulaşma"],
+      "tedavi": ["Urlu dalların kesilmesi", "Bakırlı ilaç uygulaması"],
+      "onleme": ["Budama aletlerinin dezenfeksiyonu", "Kuru havada budama"],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["kış", "ilkbahar"],
+      "yaygin_iller": ["Aydın", "Muğla", "Balıkesir", "Hatay"]
+    },
+    {
+      "id": "DSE-011",
+      "ad": "Fıstık Septorya Yaprak Lekesi",
+      "bilimsel_ad": "Septoria pistaciarum",
+      "bitki": "antep fıstığı",
+      "etkilenen_kisim": ["yaprak"],
+      "belirtiler": [
+        "Yapraklarda küçük kahverengi lekeler",
+        "Erken yaprak dökümü",
+        "Verim kaybı"
+      ],
+      "sebepler": ["Yağışlı ilkbahar", "Enfekteli yaprak kalıntıları"],
+      "tedavi": ["Fungisit uygulaması"],
+      "onleme": ["Bahçe temizliği", "Dengeli gübreleme"],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["ilkbahar", "yaz"],
+      "yaygin_iller": ["Gaziantep", "Şanlıurfa", "Siirt", "Adıyaman"]
+    },
+    {
+      "id": "DSE-012",
+      "ad": "Çilek Botritis (Gri Küf)",
+      "bilimsel_ad": "Botrytis cinerea",
+      "bitki": "çilek",
+      "etkilenen_kisim": ["meyve", "çiçek"],
+      "belirtiler": [
+        "Meyvelerde gri-kahverengi küf örtüsü",
+        "Yumuşama ve su salma",
+        "Çiçeklerde kahverengileşme"
+      ],
+      "sebepler": ["Yüksek nem", "Yetersiz havalandırma", "Sık dikim"],
+      "tedavi": ["Fungisit uygulaması", "Enfekteli meyvelerin kaldırılması"],
+      "onleme": ["Malçlama", "Damla sulama", "İyi havalandırma"],
+      "risk_seviyesi": "yüksek",
+      "yaygin_mevsim": ["ilkbahar"],
+      "yaygin_iller": ["Mersin", "Aydın", "Antalya"]
+    },
+    {
+      "id": "DSE-013",
+      "ad": "Ceviz Antraknozu",
+      "bilimsel_ad": "Gnomonia leptostyla",
+      "bitki": "ceviz",
+      "etkilenen_kisim": ["yaprak", "meyve"],
+      "belirtiler": [
+        "Yapraklarda koyu kahverengi düzensiz lekeler",
+        "Erken yaprak dökümü",
+        "Meyve kabuğunda siyah lekeler"
+      ],
+      "sebepler": ["Yağışlı ve nemli hava"],
+      "tedavi": ["Bakırlı preparatlar"],
+      "onleme": ["Bahçe temizliği", "Budama", "Dayanıklı çeşit"],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["ilkbahar", "yaz"],
+      "yaygin_iller": ["Kahramanmaraş", "Mersin", "Düzce", "Sakarya"]
+    },
+    {
+      "id": "DSE-014",
+      "ad": "Kayısı Bakteriyel Yaprak Yanıklığı",
+      "bilimsel_ad": "Xanthomonas arboricola",
+      "bitki": "kayısı",
+      "etkilenen_kisim": ["yaprak", "meyve"],
+      "belirtiler": [
+        "Yapraklarda su emilmiş küçük lekeler",
+        "Lekelerin kuruması ve delinmesi",
+        "Meyvelerde küçük kahverengi lekeler"
+      ],
+      "sebepler": ["Yağmurlu hava", "Rüzgarla yayılma"],
+      "tedavi": ["Bakırlı ilaçlar"],
+      "onleme": ["Rüzgar perdesi", "Dayanıklı çeşit", "Budama hijyeni"],
+      "risk_seviyesi": "orta",
+      "yaygin_mevsim": ["ilkbahar"],
+      "yaygin_iller": ["Malatya", "Elazığ", "Erzincan"]
+    },
+    {
+      "id": "DSE-015",
+      "ad": "Domates Solgunluk (Fusarium)",
+      "bilimsel_ad": "Fusarium oxysporum f.sp. lycopersici",
+      "bitki": "domates",
+      "etkilenen_kisim": ["kök", "gövde", "tüm bitki"],
+      "belirtiler": [
+        "Alt yapraklarda tek taraflı sararma",
+        "Bitkilerde solgunluk",
+        "Gövde kesitinde kahverengi damar renklenmesi",
+        "İlerleyen dönemde bitki ölümü"
+      ],
+      "sebepler": ["Toprak kaynaklı fungal patojen", "Sıcak toprak (>28°C)"],
+      "tedavi": ["Doğrudan tedavisi zor", "Biyolojik mücadele ajanları"],
+      "onleme": ["Dayanıklı çeşit", "Toprak dezenfeksiyonu", "Münavebe", "Aşılı fide"],
+      "risk_seviyesi": "çok yüksek",
+      "yaygin_mevsim": ["yaz"],
+      "yaygin_iller": ["Antalya", "Mersin", "Adana"]
+    }
+  ]
+}

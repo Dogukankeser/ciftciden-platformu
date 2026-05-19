@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Güncel hal fiyatları (simülasyon)",
+    "source": "Mock — BTK Akademi 2026 Hackathon",
+    "tarih": "2026-05-16"
+  },
+  "fiyatlar": [
+    {
+      "urun": "Kayısı",
+      "cesit": "Hacıhaliloğlu",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Malatya": {"min": 45.0, "max": 65.0, "ortalama": 55.0},
+        "Elazığ": {"min": 42.0, "max": 60.0, "ortalama": 51.0},
+        "İstanbul": {"min": 70.0, "max": 95.0, "ortalama": 82.0},
+        "Ankara": {"min": 60.0, "max": 80.0, "ortalama": 70.0}
+      },
+      "trend": "yükseliş",
+      "degisim_yuzde": 8.5
+    },
+    {
+      "urun": "Kayısı",
+      "cesit": "Kabaaşı",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Malatya": {"min": 35.0, "max": 50.0, "ortalama": 42.0},
+        "Mersin": {"min": 40.0, "max": 55.0, "ortalama": 47.0}
+      },
+      "trend": "sabit",
+      "degisim_yuzde": 1.2
+    },
+    {
+      "urun": "Domates",
+      "cesit": "Sofralık",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Antalya": {"min": 8.0, "max": 15.0, "ortalama": 11.5},
+        "Mersin": {"min": 9.0, "max": 16.0, "ortalama": 12.0},
+        "İstanbul": {"min": 18.0, "max": 28.0, "ortalama": 22.0},
+        "Bursa": {"min": 14.0, "max": 22.0, "ortalama": 18.0}
+      },
+      "trend": "düşüş",
+      "degisim_yuzde": -5.3
+    },
+    {
+      "urun": "Domates",
+      "cesit": "Salçalık",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Antalya": {"min": 5.0, "max": 10.0, "ortalama": 7.5},
+        "Manisa": {"min": 6.0, "max": 11.0, "ortalama": 8.0}
+      },
+      "trend": "sabit",
+      "degisim_yuzde": 0.5
+    },
+    {
+      "urun": "Elma",
+      "cesit": "Starking",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Isparta": {"min": 12.0, "max": 20.0, "ortalama": 16.0},
+        "Karaman": {"min": 11.0, "max": 18.0, "ortalama": 14.5},
+        "İstanbul": {"min": 22.0, "max": 35.0, "ortalama": 28.0}
+      },
+      "trend": "yükseliş",
+      "degisim_yuzde": 4.2
+    },
+    {
+      "urun": "Elma",
+      "cesit": "Golden",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Isparta": {"min": 10.0, "max": 17.0, "ortalama": 13.5},
+        "Niğde": {"min": 9.0, "max": 15.0, "ortalama": 12.0}
+      },
+      "trend": "sabit",
+      "degisim_yuzde": 2.0
+    },
+    {
+      "urun": "Biber",
+      "cesit": "Sivri",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Gaziantep": {"min": 15.0, "max": 25.0, "ortalama": 20.0},
+        "Şanlıurfa": {"min": 14.0, "max": 22.0, "ortalama": 18.0},
+        "Antalya": {"min": 12.0, "max": 20.0, "ortalama": 16.0}
+      },
+      "trend": "yükseliş",
+      "degisim_yuzde": 6.1
+    },
+    {
+      "urun": "Buğday",
+      "cesit": "Ekmeklik",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Konya": {"min": 9.5, "max": 12.0, "ortalama": 10.8},
+        "Ankara": {"min": 10.0, "max": 12.5, "ortalama": 11.2},
+        "Diyarbakır": {"min": 9.0, "max": 11.5, "ortalama": 10.2}
+      },
+      "trend": "sabit",
+      "degisim_yuzde": 1.8
+    },
+    {
+      "urun": "Üzüm",
+      "cesit": "Sultani",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Manisa": {"min": 25.0, "max": 40.0, "ortalama": 32.0},
+        "Denizli": {"min": 22.0, "max": 35.0, "ortalama": 28.0}
+      },
+      "trend": "yükseliş",
+      "degisim_yuzde": 10.0
+    },
+    {
+      "urun": "Antep Fıstığı",
+      "cesit": "Kırmızı",
+      "birim": "TL/kg",
+      "fiyatlar": {
+        "Gaziantep": {"min": 350.0, "max": 500.0, "ortalama": 420.0},
+        "Şanlıurfa": {"min": 340.0, "max": 480.0, "ortalama": 400.0},
+        "İstanbul": {"min": 500.0, "max": 700.0, "ortalama": 600.0}
+      },
+      "trend": "yükseliş",
+      "degisim_yuzde": 12.5
+    }
+  ]
+}

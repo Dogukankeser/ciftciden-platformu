@@ -1,0 +1,139 @@
+{
+  "tarim_illeri": [
+    {
+      "il": "Malatya",
+      "bolge": "Doğu Anadolu",
+      "ana_urunler": ["kayısı", "elma", "ceviz"],
+      "hal_sayisi": 3,
+      "ciftci_nufusu": 45000,
+      "enlem": 38.3552,
+      "boylam": 38.3095
+    },
+    {
+      "il": "Elazığ",
+      "bolge": "Doğu Anadolu",
+      "ana_urunler": ["kayısı", "üzüm", "ceviz"],
+      "hal_sayisi": 2,
+      "ciftci_nufusu": 28000,
+      "enlem": 38.6810,
+      "boylam": 39.2264
+    },
+    {
+      "il": "Antalya",
+      "bolge": "Akdeniz",
+      "ana_urunler": ["domates", "biber", "portakal", "nar"],
+      "hal_sayisi": 5,
+      "ciftci_nufusu": 72000,
+      "enlem": 36.8969,
+      "boylam": 30.7133
+    },
+    {
+      "il": "Mersin",
+      "bolge": "Akdeniz",
+      "ana_urunler": ["domates", "limon", "portakal", "çilek"],
+      "hal_sayisi": 4,
+      "ciftci_nufusu": 55000,
+      "enlem": 36.8121,
+      "boylam": 34.6415
+    },
+    {
+      "il": "Adana",
+      "bolge": "Akdeniz",
+      "ana_urunler": ["portakal", "domates", "biber", "pamuk"],
+      "hal_sayisi": 4,
+      "ciftci_nufusu": 60000,
+      "enlem": 37.0000,
+      "boylam": 35.3213
+    },
+    {
+      "il": "Bursa",
+      "bolge": "Marmara",
+      "ana_urunler": ["şeftali", "domates", "zeytin"],
+      "hal_sayisi": 3,
+      "ciftci_nufusu": 40000,
+      "enlem": 40.1826,
+      "boylam": 29.0665
+    },
+    {
+      "il": "Manisa",
+      "bolge": "Ege",
+      "ana_urunler": ["üzüm", "zeytin", "kiraz"],
+      "hal_sayisi": 3,
+      "ciftci_nufusu": 38000,
+      "enlem": 38.6191,
+      "boylam": 27.4289
+    },
+    {
+      "il": "İzmir",
+      "bolge": "Ege",
+      "ana_urunler": ["zeytin", "incir", "üzüm", "domates"],
+      "hal_sayisi": 5,
+      "ciftci_nufusu": 48000,
+      "enlem": 38.4192,
+      "boylam": 27.1287
+    },
+    {
+      "il": "Gaziantep",
+      "bolge": "Güneydoğu Anadolu",
+      "ana_urunler": ["fıstık", "biber", "zeytin"],
+      "hal_sayisi": 3,
+      "ciftci_nufusu": 35000,
+      "enlem": 37.0662,
+      "boylam": 37.3833
+    },
+    {
+      "il": "Şanlıurfa",
+      "bolge": "Güneydoğu Anadolu",
+      "ana_urunler": ["biber", "domates", "patlıcan", "pamuk"],
+      "hal_sayisi": 3,
+      "ciftci_nufusu": 52000,
+      "enlem": 37.1591,
+      "boylam": 38.7969
+    },
+    {
+      "il": "Konya",
+      "bolge": "İç Anadolu",
+      "ana_urunler": ["buğday", "arpa", "şeker pancarı", "elma"],
+      "hal_sayisi": 4,
+      "ciftci_nufusu": 65000,
+      "enlem": 37.8746,
+      "boylam": 32.4932
+    },
+    {
+      "il": "Trabzon",
+      "bolge": "Karadeniz",
+      "ana_urunler": ["fındık", "çay", "kivi"],
+      "hal_sayisi": 2,
+      "ciftci_nufusu": 32000,
+      "enlem": 41.0027,
+      "boylam": 39.7168
+    },
+    {
+      "il": "Amasya",
+      "bolge": "Karadeniz",
+      "ana_urunler": ["elma", "kiraz", "şeftali"],
+      "hal_sayisi": 2,
+      "ciftci_nufusu": 18000,
+      "enlem": 40.6499,
+      "boylam": 35.8353
+    },
+    {
+      "il": "Isparta",
+      "bolge": "Akdeniz",
+      "ana_urunler": ["elma", "kiraz", "gül"],
+      "hal_sayisi": 2,
+      "ciftci_nufusu": 22000,
+      "enlem": 37.7648,
+      "boylam": 30.5566
+    },
+    {
+      "il": "Hatay",
+      "bolge": "Akdeniz",
+      "ana_urunler": ["zeytin", "portakal", "domates", "biber"],
+      "hal_sayisi": 3,
+      "ciftci_nufusu": 42000,
+      "enlem": 36.4018,
+      "boylam": 36.3498
+    }
+  ]
+}

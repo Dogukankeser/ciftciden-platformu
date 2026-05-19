@@ -1,0 +1,50 @@
+{
+  "kategoriler": [
+    {
+      "kategori": "kayısı",
+      "cesitler": [
+        {"ad": "Hacıhaliloğlu", "sezon": "Haz-Ağu", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 48.0, "alt": 35.0, "ust": 65.0},
+        {"ad": "Kabaaşı", "sezon": "Haz-Tem", "ana_iller": ["Malatya"], "ort_fiyat": 55.0, "alt": 40.0, "ust": 75.0},
+        {"ad": "Çataloğlu", "sezon": "Haz-Ağu", "ana_iller": ["Malatya"], "ort_fiyat": 42.0, "alt": 30.0, "ust": 58.0},
+        {"ad": "Hasanbey", "sezon": "Haz-Tem", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 50.0, "alt": 38.0, "ust": 68.0}
+      ]
+    },
+    {
+      "kategori": "domates",
+      "cesitler": [
+        {"ad": "Salkım Domates", "sezon": "Nis-Eki", "ana_iller": ["Antalya", "Mersin", "Adana"], "ort_fiyat": 22.0, "alt": 12.0, "ust": 38.0},
+        {"ad": "Cherry Domates", "sezon": "Mar-Kas", "ana_iller": ["Antalya", "Mersin"], "ort_fiyat": 35.0, "alt": 20.0, "ust": 55.0},
+        {"ad": "Köy Domatesi", "sezon": "Haz-Eyl", "ana_iller": ["Şanlıurfa", "Hatay"], "ort_fiyat": 28.0, "alt": 15.0, "ust": 45.0}
+      ]
+    },
+    {
+      "kategori": "biber",
+      "cesitler": [
+        {"ad": "Çarliston Biber", "sezon": "May-Eki", "ana_iller": ["Antalya", "Şanlıurfa"], "ort_fiyat": 25.0, "alt": 14.0, "ust": 42.0},
+        {"ad": "Kapya Biber", "sezon": "Tem-Eyl", "ana_iller": ["Gaziantep", "Şanlıurfa"], "ort_fiyat": 18.0, "alt": 10.0, "ust": 30.0}
+      ]
+    },
+    {
+      "kategori": "elma",
+      "cesitler": [
+        {"ad": "Starking", "sezon": "Ağu-Kas", "ana_iller": ["Isparta", "Konya", "Amasya"], "ort_fiyat": 18.0, "alt": 10.0, "ust": 28.0},
+        {"ad": "Golden", "sezon": "Eyl-Kas", "ana_iller": ["Isparta", "Konya"], "ort_fiyat": 16.0, "alt": 9.0, "ust": 25.0},
+        {"ad": "Amasya Elması", "sezon": "Eyl-Eki", "ana_iller": ["Amasya"], "ort_fiyat": 22.0, "alt": 14.0, "ust": 35.0}
+      ]
+    },
+    {
+      "kategori": "portakal",
+      "cesitler": [
+        {"ad": "Washington", "sezon": "Kas-Nis", "ana_iller": ["Adana", "Mersin", "Hatay"], "ort_fiyat": 12.0, "alt": 6.0, "ust": 22.0},
+        {"ad": "Finike Portakalı", "sezon": "Ara-Mar", "ana_iller": ["Antalya"], "ort_fiyat": 15.0, "alt": 8.0, "ust": 25.0}
+      ]
+    },
+    {
+      "kategori": "üzüm",
+      "cesitler": [
+        {"ad": "Sultani", "sezon": "Ağu-Eki", "ana_iller": ["Manisa", "İzmir"], "ort_fiyat": 30.0, "alt": 18.0, "ust": 48.0},
+        {"ad": "Şire Üzümü", "sezon": "Eyl-Eki", "ana_iller": ["Elazığ", "Manisa"], "ort_fiyat": 20.0, "alt": 12.0, "ust": 32.0}
+      ]
+    }
+  ]
+}

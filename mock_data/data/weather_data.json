@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Türkiye tarım illeri mock meteoroloji verileri",
+    "source": "Mock — BTK Akademi 2026 Hackathon",
+    "tarih": "2026-05-16"
+  },
+  "iller": {
+    "Malatya": {
+      "sicaklik_c": 28,
+      "min_sicaklik_c": 14,
+      "max_sicaklik_c": 34,
+      "nem_yuzde": 42,
+      "yagis_mm": 12,
+      "ruzgar_kmh": 15,
+      "don_riski": false,
+      "hava_durumu": "Güneşli",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 29, "durum": "Güneşli"},
+        {"gun": "Salı", "sicaklik": 27, "durum": "Parçalı Bulutlu"},
+        {"gun": "Çarşamba", "sicaklik": 24, "durum": "Yağmurlu"},
+        {"gun": "Perşembe", "sicaklik": 22, "durum": "Sağanak"},
+        {"gun": "Cuma", "sicaklik": 26, "durum": "Güneşli"}
+      ]
+    },
+    "Antalya": {
+      "sicaklik_c": 32,
+      "min_sicaklik_c": 22,
+      "max_sicaklik_c": 36,
+      "nem_yuzde": 65,
+      "yagis_mm": 3,
+      "ruzgar_kmh": 12,
+      "don_riski": false,
+      "hava_durumu": "Açık",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 33, "durum": "Açık"},
+        {"gun": "Salı", "sicaklik": 34, "durum": "Güneşli"},
+        {"gun": "Çarşamba", "sicaklik": 31, "durum": "Parçalı Bulutlu"},
+        {"gun": "Perşembe", "sicaklik": 32, "durum": "Güneşli"},
+        {"gun": "Cuma", "sicaklik": 33, "durum": "Açık"}
+      ]
+    },
+    "Konya": {
+      "sicaklik_c": 25,
+      "min_sicaklik_c": 10,
+      "max_sicaklik_c": 30,
+      "nem_yuzde": 35,
+      "yagis_mm": 8,
+      "ruzgar_kmh": 20,
+      "don_riski": false,
+      "hava_durumu": "Parçalı Bulutlu",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 26, "durum": "Güneşli"},
+        {"gun": "Salı", "sicaklik": 24, "durum": "Bulutlu"},
+        {"gun": "Çarşamba", "sicaklik": 22, "durum": "Yağmurlu"},
+        {"gun": "Perşembe", "sicaklik": 25, "durum": "Güneşli"},
+        {"gun": "Cuma", "sicaklik": 27, "durum": "Açık"}
+      ]
+    },
+    "Gaziantep": {
+      "sicaklik_c": 30,
+      "min_sicaklik_c": 18,
+      "max_sicaklik_c": 35,
+      "nem_yuzde": 38,
+      "yagis_mm": 5,
+      "ruzgar_kmh": 10,
+      "don_riski": false,
+      "hava_durumu": "Güneşli",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 31, "durum": "Güneşli"},
+        {"gun": "Salı", "sicaklik": 32, "durum": "Açık"},
+        {"gun": "Çarşamba", "sicaklik": 29, "durum": "Parçalı Bulutlu"},
+        {"gun": "Perşembe", "sicaklik": 30, "durum": "Güneşli"},
+        {"gun": "Cuma", "sicaklik": 31, "durum": "Açık"}
+      ]
+    },
+    "Mersin": {
+      "sicaklik_c": 31,
+      "min_sicaklik_c": 21,
+      "max_sicaklik_c": 35,
+      "nem_yuzde": 70,
+      "yagis_mm": 2,
+      "ruzgar_kmh": 18,
+      "don_riski": false,
+      "hava_durumu": "Açık",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 32, "durum": "Güneşli"},
+        {"gun": "Salı", "sicaklik": 30, "durum": "Parçalı Bulutlu"},
+        {"gun": "Çarşamba", "sicaklik": 31, "durum": "Açık"},
+        {"gun": "Perşembe", "sicaklik": 33, "durum": "Güneşli"},
+        {"gun": "Cuma", "sicaklik": 32, "durum": "Açık"}
+      ]
+    },
+    "Bursa": {
+      "sicaklik_c": 24,
+      "min_sicaklik_c": 14,
+      "max_sicaklik_c": 28,
+      "nem_yuzde": 60,
+      "yagis_mm": 20,
+      "ruzgar_kmh": 14,
+      "don_riski": false,
+      "hava_durumu": "Bulutlu",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 25, "durum": "Parçalı Bulutlu"},
+        {"gun": "Salı", "sicaklik": 22, "durum": "Yağmurlu"},
+        {"gun": "Çarşamba", "sicaklik": 23, "durum": "Bulutlu"},
+        {"gun": "Perşembe", "sicaklik": 26, "durum": "Güneşli"},
+        {"gun": "Cuma", "sicaklik": 27, "durum": "Açık"}
+      ]
+    },
+    "Elazığ": {
+      "sicaklik_c": 26,
+      "min_sicaklik_c": 12,
+      "max_sicaklik_c": 32,
+      "nem_yuzde": 40,
+      "yagis_mm": 10,
+      "ruzgar_kmh": 16,
+      "don_riski": false,
+      "hava_durumu": "Güneşli",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 27, "durum": "Güneşli"},
+        {"gun": "Salı", "sicaklik": 25, "durum": "Parçalı Bulutlu"},
+        {"gun": "Çarşamba", "sicaklik": 23, "durum": "Yağmurlu"},
+        {"gun": "Perşembe", "sicaklik": 26, "durum": "Güneşli"},
+        {"gun": "Cuma", "sicaklik": 28, "durum": "Açık"}
+      ]
+    },
+    "Isparta": {
+      "sicaklik_c": 22,
+      "min_sicaklik_c": 10,
+      "max_sicaklik_c": 27,
+      "nem_yuzde": 50,
+      "yagis_mm": 15,
+      "ruzgar_kmh": 12,
+      "don_riski": false,
+      "hava_durumu": "Parçalı Bulutlu",
+      "tahmini_5_gun": [
+        {"gun": "Pazartesi", "sicaklik": 23, "durum": "Güneşli"},
+        {"gun": "Salı", "sicaklik": 21, "durum": "Bulutlu"},
+        {"gun": "Çarşamba", "sicaklik": 19, "durum": "Yağmurlu"},
+        {"gun": "Perşembe", "sicaklik": 22, "durum": "Parçalı Bulutlu"},
+        {"gun": "Cuma", "sicaklik": 24, "durum": "Güneşli"}
+      ]
+    }
+  }
+}

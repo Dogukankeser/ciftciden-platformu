@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+*.env.local
+
+# Database
+*.db
+*.sqlite3
+
+# Mock data (generated)
+mock_data/data/generated_mock_data.json
+
+# Node.js (frontend)
+node_modules/
+.next/
+out/
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*

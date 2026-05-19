@@ -1,0 +1,61 @@
+{
+  "aciklama": "Son 30 günlük simüle edilmiş günlük hal fiyatları (TL/kg). Gerçek piyasa dalgalanmalarını taklit eder.",
+  "kaynak": "Mock Data — BTK Akademi 2026 Hackathon",
+  "fiyat_gecmisi": {
+    "kayısı": {
+      "il": "Malatya",
+      "cesit": "Hacıhaliloğlu",
+      "birim": "TL/kg",
+      "gunluk_fiyatlar": [
+        {"tarih": "2026-04-15", "min": 40.0, "max": 48.0, "ortalama": 44.0},
+        {"tarih": "2026-04-16", "min": 41.0, "max": 49.0, "ortalama": 45.0},
+        {"tarih": "2026-04-17", "min": 40.5, "max": 48.5, "ortalama": 44.5},
+        {"tarih": "2026-04-18", "min": 42.0, "max": 50.0, "ortalama": 46.0},
+        {"tarih": "2026-04-19", "min": 43.0, "max": 51.0, "ortalama": 47.0},
+        {"tarih": "2026-04-20", "min": 42.5, "max": 50.5, "ortalama": 46.5},
+        {"tarih": "2026-04-21", "min": 43.0, "max": 52.0, "ortalama": 47.5},
+        {"tarih": "2026-04-22", "min": 44.0, "max": 53.0, "ortalama": 48.5},
+        {"tarih": "2026-04-23", "min": 43.5, "max": 52.0, "ortalama": 47.8},
+        {"tarih": "2026-04-24", "min": 44.0, "max": 52.5, "ortalama": 48.2},
+        {"tarih": "2026-04-25", "min": 45.0, "max": 54.0, "ortalama": 49.5},
+        {"tarih": "2026-04-26", "min": 44.5, "max": 53.0, "ortalama": 48.8},
+        {"tarih": "2026-04-27", "min": 45.0, "max": 53.5, "ortalama": 49.2},
+        {"tarih": "2026-04-28", "min": 46.0, "max": 55.0, "ortalama": 50.5},
+        {"tarih": "2026-04-29", "min": 45.5, "max": 54.0, "ortalama": 49.8},
+        {"tarih": "2026-04-30", "min": 46.0, "max": 54.5, "ortalama": 50.2},
+        {"tarih": "2026-05-01", "min": 47.0, "max": 56.0, "ortalama": 51.5},
+        {"tarih": "2026-05-02", "min": 46.5, "max": 55.0, "ortalama": 50.8},
+        {"tarih": "2026-05-03", "min": 47.0, "max": 55.5, "ortalama": 51.2},
+        {"tarih": "2026-05-04", "min": 46.0, "max": 54.5, "ortalama": 50.2},
+        {"tarih": "2026-05-05", "min": 45.5, "max": 54.0, "ortalama": 49.8},
+        {"tarih": "2026-05-06", "min": 46.0, "max": 55.0, "ortalama": 50.5},
+        {"tarih": "2026-05-07", "min": 47.0, "max": 56.0, "ortalama": 51.5},
+        {"tarih": "2026-05-08", "min": 47.5, "max": 56.5, "ortalama": 52.0},
+        {"tarih": "2026-05-09", "min": 46.5, "max": 55.5, "ortalama": 51.0},
+        {"tarih": "2026-05-10", "min": 47.0, "max": 56.0, "ortalama": 51.5},
+        {"tarih": "2026-05-11", "min": 48.0, "max": 57.0, "ortalama": 52.5},
+        {"tarih": "2026-05-12", "min": 47.5, "max": 56.5, "ortalama": 52.0},
+        {"tarih": "2026-05-13", "min": 48.0, "max": 57.5, "ortalama": 52.8},
+        {"tarih": "2026-05-14", "min": 48.5, "max": 58.0, "ortalama": 53.2}
+      ]
+    },
+    "domates": {
+      "il": "Antalya",
+      "cesit": "Salkım Domates",
+      "birim": "TL/kg",
+      "gunluk_fiyatlar": [
+        {"tarih": "2026-04-15", "min": 14.0, "max": 22.0, "ortalama": 18.0},
+        {"tarih": "2026-04-18", "min": 13.0, "max": 21.0, "ortalama": 17.0},
+        {"tarih": "2026-04-21", "min": 12.5, "max": 20.0, "ortalama": 16.2},
+        {"tarih": "2026-04-24", "min": 13.5, "max": 21.5, "ortalama": 17.5},
+        {"tarih": "2026-04-27", "min": 14.0, "max": 22.0, "ortalama": 18.0},
+        {"tarih": "2026-04-30", "min": 15.0, "max": 23.0, "ortalama": 19.0},
+        {"tarih": "2026-05-03", "min": 16.0, "max": 24.0, "ortalama": 20.0},
+        {"tarih": "2026-05-06", "min": 15.5, "max": 23.5, "ortalama": 19.5},
+        {"tarih": "2026-05-09", "min": 16.0, "max": 24.0, "ortalama": 20.0},
+        {"tarih": "2026-05-12", "min": 17.0, "max": 25.0, "ortalama": 21.0},
+        {"tarih": "2026-05-14", "min": 16.5, "max": 24.5, "ortalama": 20.5}
+      ]
+    }
+  }
+}
