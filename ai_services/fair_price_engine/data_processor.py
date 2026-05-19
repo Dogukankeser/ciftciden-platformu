@@ -27,6 +27,10 @@ SEASONALITY = {
     "elma": {8: 0.90, 9: 0.85, 10: 0.90, 11: 1.0, "default": 1.10},
     "portakal": {11: 1.0, 12: 0.95, 1: 0.90, 2: 0.95, 3: 1.0, 4: 1.05, "default": 1.20},
     "üzüm": {8: 0.95, 9: 0.90, 10: 1.0, "default": 1.15},
+    "buğday": {6: 0.95, 7: 0.90, 8: 0.95, "default": 1.05},
+    "antepfıstığı": {8: 0.90, 9: 0.85, 10: 0.95, "default": 1.05},
+    "zeytin": {10: 0.95, 11: 0.90, 12: 0.95, "default": 1.05},
+    "fındık": {8: 0.90, 9: 0.85, 10: 0.95, "default": 1.05},
 }
 
 # Bölgesel arz-talep simülasyonu (üretim yoğunluğu düşük = fiyat yüksek)
@@ -45,14 +49,27 @@ def get_seasonality_factor(category: str, month: int | None = None) -> float:
     if month is None:
         month = datetime.now().month
 
-    cat_seasons = SEASONALITY.get(category, {})
+    cat_seasons = SEASONALITY.get(category.strip().lower(), {})
     return cat_seasons.get(month, cat_seasons.get("default", 1.0))
 
 
 def get_regional_factor(city: str, category: str) -> float:
     """Bölgesel arz-talep katsayısını döndürür."""
-    city_factors = REGIONAL_DEMAND.get(city, {})
-    return city_factors.get(category, 1.05)  # Bilinmeyen bölge = hafif yüksek
+    target_city = city.strip().lower()
+    city_match = None
+    for k in REGIONAL_DEMAND.keys():
+        if k.lower() == target_city:
+            city_match = k
+            break
+            
+    if city_match:
+        city_factors = REGIONAL_DEMAND[city_match]
+        target_cat = category.strip().lower()
+        for cat_k, val in city_factors.items():
+            if cat_k.lower() == target_cat:
+                return val
+        return 1.05
+    return 1.05  # Bilinmeyen bölge = hafif yüksek
 
 
 def simulate_inflation_factor(base_year: int = 2025) -> float:
@@ -63,11 +80,20 @@ def simulate_inflation_factor(base_year: int = 2025) -> float:
     return (1 + annual_rate) ** years_diff
 
 
-def load_price_history(category: str) -> dict | None:
+def load_price_history(category: str, variety: str | None = None) -> dict | None:
     """Mock fiyat geçmişi verilerini yükler."""
     try:
         with open(DATA_DIR / "price_history.json", "r", encoding="utf-8") as f:
             data = json.load(f)
+        
+        cat_key = category.strip().lower()
+        if cat_key == "kayısı":
+            variety_norm = (variety or "").strip().lower()
+            if "yaş" in variety_norm or "yas" in variety_norm:
+                return data.get("fiyat_gecmisi", {}).get("kayısı_yas")
+            else:
+                return data.get("fiyat_gecmisi", {}).get("kayısı_kuru")
+                
         return data.get("fiyat_gecmisi", {}).get(category)
     except (FileNotFoundError, json.JSONDecodeError):
         return None
@@ -78,11 +104,19 @@ def load_catalog_info(category: str, variety: str | None = None) -> dict | None:
     try:
         with open(DATA_DIR / "products_catalog.json", "r", encoding="utf-8") as f:
             data = json.load(f)
+        target_cat = category.strip().lower()
         for cat in data.get("kategoriler", []):
-            if cat["kategori"] == category:
+            if cat["kategori"].strip().lower() == target_cat:
                 if variety:
+                    target_variety = variety.strip().lower()
+                    # First try exact case-insensitive match
                     for cesit in cat.get("cesitler", []):
-                        if cesit["ad"] == variety:
+                        if cesit["ad"].strip().lower() == target_variety:
+                            return cesit
+                    # Then try substring match
+                    for cesit in cat.get("cesitler", []):
+                        cesit_ad_norm = cesit["ad"].strip().lower()
+                        if cesit_ad_norm in target_variety or target_variety in cesit_ad_norm:
                             return cesit
                     # Çeşit bulunamazsa ilk çeşidi döndür
                     return cat["cesitler"][0] if cat["cesitler"] else None
@@ -110,7 +144,7 @@ def extract_features(
     price_ceiling = catalog["ust"] if catalog else base_price * 1.4
 
     # Fiyat geçmişi
-    history = load_price_history(category)
+    history = load_price_history(category, variety)
     if history and history.get("gunluk_fiyatlar"):
         prices = history["gunluk_fiyatlar"]
         recent_avg = np.mean([p["ortalama"] for p in prices[-7:]])  # Son 7 gün
@@ -125,7 +159,19 @@ def extract_features(
     seasonality = get_seasonality_factor(category)
     regional = get_regional_factor(city, category)
     inflation = simulate_inflation_factor()
-    quality_multiplier = 1.0 if quality_grade == "1. Kalite" else 0.75
+    
+    # Kalite çarpanı eşlemesi (Frontend ile uyumlu)
+    quality_multipliers = {
+        "premium": 1.13,
+        "1. kalite": 1.04,
+        "2. kalite": 0.92,
+        "sanayi": 0.78,
+        "protein 13+": 1.06,
+        "protein 12": 1.0,
+        "yemlik": 0.84,
+    }
+    quality_multiplier = quality_multipliers.get(quality_grade.strip().lower(), 1.0)
+    
     volume_discount = 1.0 - min(0.10, quantity_kg / 50000)  # Toptan indirim
 
     return {

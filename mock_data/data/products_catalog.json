@@ -3,47 +3,75 @@
     {
       "kategori": "kayısı",
       "cesitler": [
-        {"ad": "Hacıhaliloğlu", "sezon": "Haz-Ağu", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 48.0, "alt": 35.0, "ust": 65.0},
-        {"ad": "Kabaaşı", "sezon": "Haz-Tem", "ana_iller": ["Malatya"], "ort_fiyat": 55.0, "alt": 40.0, "ust": 75.0},
-        {"ad": "Çataloğlu", "sezon": "Haz-Ağu", "ana_iller": ["Malatya"], "ort_fiyat": 42.0, "alt": 30.0, "ust": 58.0},
-        {"ad": "Hasanbey", "sezon": "Haz-Tem", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 50.0, "alt": 38.0, "ust": 68.0}
+        {"ad": "Hacıhaliloğlu", "sezon": "Haz-Ağu", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 198.0, "alt": 160.0, "ust": 240.0},
+        {"ad": "Kabaaşı", "sezon": "Haz-Tem", "ana_iller": ["Malatya"], "ort_fiyat": 180.0, "alt": 145.0, "ust": 220.0},
+        {"ad": "Hasanbey", "sezon": "Haz-Tem", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 185.0, "alt": 150.0, "ust": 225.0},
+        {"ad": "Çataloğlu", "sezon": "Haz-Ağu", "ana_iller": ["Malatya"], "ort_fiyat": 175.0, "alt": 140.0, "ust": 215.0},
+        {"ad": "Yaş Kayısı", "sezon": "Haz-Tem", "ana_iller": ["Malatya", "Elazığ"], "ort_fiyat": 45.0, "alt": 35.0, "ust": 55.0}
       ]
     },
     {
       "kategori": "domates",
       "cesitler": [
-        {"ad": "Salkım Domates", "sezon": "Nis-Eki", "ana_iller": ["Antalya", "Mersin", "Adana"], "ort_fiyat": 22.0, "alt": 12.0, "ust": 38.0},
-        {"ad": "Cherry Domates", "sezon": "Mar-Kas", "ana_iller": ["Antalya", "Mersin"], "ort_fiyat": 35.0, "alt": 20.0, "ust": 55.0},
-        {"ad": "Köy Domatesi", "sezon": "Haz-Eyl", "ana_iller": ["Şanlıurfa", "Hatay"], "ort_fiyat": 28.0, "alt": 15.0, "ust": 45.0}
-      ]
-    },
-    {
-      "kategori": "biber",
-      "cesitler": [
-        {"ad": "Çarliston Biber", "sezon": "May-Eki", "ana_iller": ["Antalya", "Şanlıurfa"], "ort_fiyat": 25.0, "alt": 14.0, "ust": 42.0},
-        {"ad": "Kapya Biber", "sezon": "Tem-Eyl", "ana_iller": ["Gaziantep", "Şanlıurfa"], "ort_fiyat": 18.0, "alt": 10.0, "ust": 30.0}
+        {"ad": "Salkım", "sezon": "Nis-Eki", "ana_iller": ["Antalya", "Mersin", "Adana"], "ort_fiyat": 24.5, "alt": 18.0, "ust": 32.0},
+        {"ad": "Sırık", "sezon": "Nis-Eki", "ana_iller": ["Antalya", "Mersin"], "ort_fiyat": 22.0, "alt": 16.0, "ust": 28.0},
+        {"ad": "Cherry", "sezon": "Mar-Kas", "ana_iller": ["Antalya", "Mersin"], "ort_fiyat": 38.0, "alt": 28.0, "ust": 48.0},
+        {"ad": "Tarla", "sezon": "Haz-Eyl", "ana_iller": ["Mersin", "Şanlıurfa", "Hatay"], "ort_fiyat": 18.0, "alt": 12.0, "ust": 24.0},
+        {"ad": "Sofralık", "sezon": "Nis-Eki", "ana_iller": ["Antalya", "Mersin"], "ort_fiyat": 20.0, "alt": 14.0, "ust": 26.0}
       ]
     },
     {
       "kategori": "elma",
       "cesitler": [
-        {"ad": "Starking", "sezon": "Ağu-Kas", "ana_iller": ["Isparta", "Konya", "Amasya"], "ort_fiyat": 18.0, "alt": 10.0, "ust": 28.0},
-        {"ad": "Golden", "sezon": "Eyl-Kas", "ana_iller": ["Isparta", "Konya"], "ort_fiyat": 16.0, "alt": 9.0, "ust": 25.0},
-        {"ad": "Amasya Elması", "sezon": "Eyl-Eki", "ana_iller": ["Amasya"], "ort_fiyat": 22.0, "alt": 14.0, "ust": 35.0}
+        {"ad": "Starking", "sezon": "Ağu-Kas", "ana_iller": ["Isparta", "Konya", "Amasya"], "ort_fiyat": 20.0, "alt": 14.0, "ust": 26.0},
+        {"ad": "Golden", "sezon": "Eyl-Kas", "ana_iller": ["Isparta", "Konya"], "ort_fiyat": 18.0, "alt": 12.0, "ust": 24.0},
+        {"ad": "Granny Smith", "sezon": "Ağu-Eki", "ana_iller": ["Isparta", "Niğde"], "ort_fiyat": 24.0, "alt": 18.0, "ust": 30.0},
+        {"ad": "Fuji", "sezon": "Eyl-Kas", "ana_iller": ["Isparta", "Karaman"], "ort_fiyat": 22.0, "alt": 16.0, "ust": 28.0},
+        {"ad": "Amasya", "sezon": "Eyl-Eki", "ana_iller": ["Amasya"], "ort_fiyat": 21.0, "alt": 15.0, "ust": 27.0}
       ]
     },
     {
-      "kategori": "portakal",
+      "kategori": "buğday",
       "cesitler": [
-        {"ad": "Washington", "sezon": "Kas-Nis", "ana_iller": ["Adana", "Mersin", "Hatay"], "ort_fiyat": 12.0, "alt": 6.0, "ust": 22.0},
-        {"ad": "Finike Portakalı", "sezon": "Ara-Mar", "ana_iller": ["Antalya"], "ort_fiyat": 15.0, "alt": 8.0, "ust": 25.0}
+        {"ad": "Ekmeklik", "sezon": "Haz-Ağu", "ana_iller": ["Konya", "Ankara", "Şanlıurfa"], "ort_fiyat": 11.4, "alt": 9.0, "ust": 14.0},
+        {"ad": "Makarnalık", "sezon": "Haz-Ağu", "ana_iller": ["Konya", "Gaziantep", "Diyarbakır"], "ort_fiyat": 12.5, "alt": 10.0, "ust": 15.5},
+        {"ad": "Sert Anadolu", "sezon": "Haz-Ağu", "ana_iller": ["Konya", "Sivas"], "ort_fiyat": 12.0, "alt": 9.5, "ust": 14.5}
       ]
     },
     {
       "kategori": "üzüm",
       "cesitler": [
-        {"ad": "Sultani", "sezon": "Ağu-Eki", "ana_iller": ["Manisa", "İzmir"], "ort_fiyat": 30.0, "alt": 18.0, "ust": 48.0},
-        {"ad": "Şire Üzümü", "sezon": "Eyl-Eki", "ana_iller": ["Elazığ", "Manisa"], "ort_fiyat": 20.0, "alt": 12.0, "ust": 32.0}
+        {"ad": "Sultani", "sezon": "Ağu-Eki", "ana_iller": ["Manisa", "İzmir"], "ort_fiyat": 34.8, "alt": 26.0, "ust": 42.0},
+        {"ad": "Çekirdeksiz", "sezon": "Ağu-Eki", "ana_iller": ["Manisa", "İzmir"], "ort_fiyat": 32.0, "alt": 24.0, "ust": 40.0},
+        {"ad": "Sofralık", "sezon": "Tem-Eki", "ana_iller": ["Mersin", "Manisa"], "ort_fiyat": 30.0, "alt": 22.0, "ust": 38.0},
+        {"ad": "Şaraplık", "sezon": "Eyl-Eki", "ana_iller": ["Elazığ", "Denizli", "Nevşehir"], "ort_fiyat": 28.0, "alt": 20.0, "ust": 36.0}
+      ]
+    },
+    {
+      "kategori": "antepfıstığı",
+      "cesitler": [
+        {"ad": "Kırmızı Kabuk", "sezon": "Ağu-Eyl", "ana_iller": ["Gaziantep", "Şanlıurfa"], "ort_fiyat": 430.0, "alt": 360.0, "ust": 500.0},
+        {"ad": "Boz İç", "sezon": "Ağu-Eyl", "ana_iller": ["Gaziantep", "Şanlıurfa"], "ort_fiyat": 650.0, "alt": 550.0, "ust": 750.0},
+        {"ad": "Siirt", "sezon": "Eyl-Eki", "ana_iller": ["Siirt", "Adıyaman"], "ort_fiyat": 460.0, "alt": 390.0, "ust": 530.0},
+        {"ad": "Kavrulmalık", "sezon": "Eyl-Kas", "ana_iller": ["Gaziantep", "Şanlıurfa"], "ort_fiyat": 410.0, "alt": 350.0, "ust": 480.0}
+      ]
+    },
+    {
+      "kategori": "zeytin",
+      "cesitler": [
+        {"ad": "Gemlik", "sezon": "Eki-Ara", "ana_iller": ["Bursa", "Manisa", "Balıkesir"], "ort_fiyat": 50.0, "alt": 40.0, "ust": 65.0},
+        {"ad": "Domat", "sezon": "Eyl-Kas", "ana_iller": ["Manisa", "İzmir"], "ort_fiyat": 45.0, "alt": 35.0, "ust": 58.0},
+        {"ad": "Ayvalık", "sezon": "Eki-Oca", "ana_iller": ["Balıkesir", "İzmir", "Aydın"], "ort_fiyat": 48.0, "alt": 38.0, "ust": 62.0},
+        {"ad": "Memecik", "sezon": "Eki-Oca", "ana_iller": ["Muğla", "Aydın"], "ort_fiyat": 46.0, "alt": 36.0, "ust": 60.0}
+      ]
+    },
+    {
+      "kategori": "fındık",
+      "cesitler": [
+        {"ad": "Tombul", "sezon": "Ağu-Eyl", "ana_iller": ["Ordu", "Giresun"], "ort_fiyat": 120.0, "alt": 100.0, "ust": 140.0},
+        {"ad": "Levant", "sezon": "Ağu-Eyl", "ana_iller": ["Ordu", "Giresun", "Samsun"], "ort_fiyat": 115.0, "alt": 95.0, "ust": 135.0},
+        {"ad": "Sivri", "sezon": "Ağu-Eyl", "ana_iller": ["Ordu", "Giresun"], "ort_fiyat": 110.0, "alt": 90.0, "ust": 130.0},
+        {"ad": "Palaz", "sezon": "Ağu-Eyl", "ana_iller": ["Ordu", "Trabzon"], "ort_fiyat": 112.0, "alt": 92.0, "ust": 132.0}
       ]
     }
   ]
